@@ -1,0 +1,312 @@
+/*CSS NI VEE SAKIT SA ULO*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+   
+}
+  
+  a {
+    text-decoration: none;
+  }
+  .hero {
+    width: 1830px;
+    height: 950px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    -webkit-backdrop-filter: blur(70px);
+    margin: 30px;
+    padding: 10px;
+    background: url(\img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+  
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+  }
+  .ditoyunglogo{
+    display: flex;
+    align-items: center;
+    padding: 0px;  
+  }
+  
+  .logo {
+    max-height: 70px;
+    cursor: pointer;
+  
+  }
+  .mnlhyperlink{
+    color: black;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a {
+    color: #000000;
+    position: relative;
+    padding: 5px 0;
+    
+  }
+  nav ul li a:hover {
+    color: #fd4766;
+  }
+  nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: 0.3s;
+    bottom: 0;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .Homedesign {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+  }
+  .Homedesign:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+  }
+
+  .content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+  .content2 {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    right: 50%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .content3 {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    right: 50%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .content4 {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    right: 50%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .content5 {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    right: 50%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .content6 {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    right: 50%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .content h1 {
+    color: #cf8617;
+    font-size: 75px;
+    line-height: 90px;
+    width: 100%;
+  }
+  .content h1 span {
+    color: #d34d0a;
+  }
+
+ 
+    .CasaManila{
+    height: 80%;
+    background: url(\img/casa\ de\ manila.jpg);
+    background-position: 100%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+  .ManilaOceanPark{
+    height: 70%;
+    background: url(\img/Manila-Ocean-Park-1.jpg);
+    background-position: 100%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  
+  }
+  .NationalMuseo{
+    height: 70%;
+    background: url(\img/NATIONAL\ MUSEO.jpg);
+    background-position: 100%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+  .SanAgustinChurch{
+    height: 70%;
+    background: url(\img/SAN\ AGUSTIN\ CHURCH.jpg);
+    background-position: 100%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+  .FortSantiago{
+    height: 70%;
+    background: url(\img/fort-santiago.jpg);
+    background-position: 100%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+  .RizalPark{
+    height: 70%;
+    background: url(\img/RizalPark.webp);
+    background-position: 100%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+
+  /*FOR HOMEPAGE*/
+  .BackgroundImgRizal {
+    height: 1000px;
+    width: 1900px;
+    background: url(\img/RizalHome.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  header .section__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 200px;
+    
+    
+  }
+  
+  .header__content h1 {
+    font-size: 190px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 3px #9c0b0b;
+    
+   
+
+  }
+  
+  .header__content p {
+    text-align: center;
+    color: rgb(167, 97, 97);
+    font-weight: 900;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000000;
+  
+  }
+
+
+
+  /* DITO MGA IMAGE */
+
+  .container-fluid{
+    background: url(\img/Background.jpg);
+    height: 1200px;
+  }
+  .container-fluid h1{
+    text-align: center;
+    height: 130px;
+    padding: 40px;
+    color: red;
+    -webkit-text-stroke: 1px #fda501;
+    
+  
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-height: 600px;
+  }
+  
+  .column {
+   
+    max-width: 33.3%;
+    padding: 0 4px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    height: 500px;
+  }
+  
+  /* dito yung FOOTER*/
+ 
+  footer {
+    background: rgb(146, 95, 95);
+    padding: 10px;
+
+   
+  }
+  
+  footer .section__container {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  footer h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  footer p {
+    font-style: italic;
+  }
